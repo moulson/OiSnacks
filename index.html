@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>stinky
 
     </title>
@@ -8,21 +9,22 @@
 
 <body>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
         body{
             margin:0;
             padding:0;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Fredoka One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
         }
         .center {
             margin: auto;
             display: block;
         }
 
-        nav{
+        nav, section{
             height:60px;
             width: 100vw;
-            background-color: lightpink;
+            background-color: #df3037;
             display:inline-flex;
             justify-content: space-evenly;
         
@@ -30,7 +32,7 @@
 
         .second-nav{
             height:40px;
-            background-color: lightblue;
+            background-color: #001322;
         }
 
         .nav-link{
@@ -40,8 +42,35 @@
             transition: all 0.2s;
             text-decoration: none;
         }
+        
+        .nav-link:visited{
+            color: #001322;
+        }
         .nav-link:hover{
-            color:red;
+            color:whitesmoke;
+        }
+
+        .logo-wrapper{
+            width:100%;
+            text-align: center;
+            background-color: #df3037;
+        }
+        img{
+            width:100%;
+            height: auto;
+        }
+
+        .oisnack{
+            display: block;
+            height: auto;
+            min-height: 60px;
+            padding: 40px auto;
+            text-align: center;
+        }
+
+        .oisnack h1, .oisnack h2{
+            margin: 0;
+            font-size: 5rem;
         }
     </style>
     <nav>
@@ -52,18 +81,23 @@
         <a class="nav-link" href="https://www.allsubscriptionboxes.co.uk/category/box/food/snacks/">
             How it works?
         </a>
-        <a class="nav-link" href="https://www.allsubscriptionboxes.co.uk/category/box/food/snacks/">
+        <a class="nav-link" href="./contact-us.html">
             Contact Us
         </a>
     </nav>
     <nav class="second-nav">
-        2nd nav
-        background-color: lightpink;
+    
     </nav>
-
-    <a class="center" href="https://www.allsubscriptionboxes.co.uk/category/box/food/snacks/">
-        <img src="https://familyexcursionsabroad.files.wordpress.com/2018/07/route-map.png?w=840" class="center" />
-    </a>
+    <section class="oisnack">
+        <h1>OiSnacks</h1>
+        <h2>coming soon</h2>
+    </section>
+<div class="logo-wrapper">
+</div>
+<img src="./become.png" class="center" />
+</body>
+</div>
+Contact Us
 </body>
 
 </html>
