@@ -94,6 +94,32 @@ img {
     color: #df3037;
 }
 
+.header-container{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.howitworks{
+    height: auto;
+    display: inline-block;
+}
+
+.header-container h1{
+    font-size: 2.5rem;
+}
+
+.points-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.point{
+    padding: 10px;
+    text-align: center;
+}
+
 @media screen and (max-width: 500px){
 
     .nav-link{
